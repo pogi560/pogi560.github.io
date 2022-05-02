@@ -12,11 +12,3 @@
     height: 100vh;
     width: 100%;
 }
-
-.blur {
-  animation: changeWidth 8s ease-in-out infinite;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(8px);
-  border-right: 1px solid whitesmoke;
-  height: 100vh;
-}
