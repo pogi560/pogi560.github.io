@@ -16,7 +16,7 @@
   }
 
 .background {
-    background-color: linear-gradient(to right, rgba(239,157,255,1) 0%, rgba(179,220,255,1) 50%, rgba(85,255,239,1) 100%));
+    background-color: linear-gradient(to right, rgba(239,157,255,1) 0%, rgba(179,220,255,1) 50%, rgba(85,255,239,1) 100%);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
