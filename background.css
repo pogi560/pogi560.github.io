@@ -3,18 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
-  .center {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translateX(-50%) translateY(-50%);
-      text-align: center;
-      font-size: 3em;
-      font-family: "Alata", sans-serif;
-      color: white;
-    }
-  
+ 
   .background {
     background: rgb(239,157,255);
     background: -moz-linear-gradient(90deg, rgba(239,157,255,1) 0%, rgba(216,205,255,1) 48%, rgba(85,255,239,1) 100%);
@@ -28,20 +17,3 @@
       width: 100%;
   }
   
-  .glow {
-      font-size: 80px;
-      color: #fff;
-      text-align: center;
-      -webkit-animation: glow 1s ease-in-out infinite alternate;
-      -moz-animation: glow 1s ease-in-out infinite alternate;
-      animation: glow 1s ease-in-out infinite alternate;
-    }
-    
-    @-webkit-keyframes glow {
-      from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-      }
-      to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-      }
-    }
