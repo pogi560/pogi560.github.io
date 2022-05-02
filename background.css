@@ -5,11 +5,11 @@
   }
  
   .background {
-    background: rgb(239,157,255);
-    background: -moz-linear-gradient(90deg, rgba(239,157,255,1) 0%, rgba(216,205,255,1) 48%, rgba(85,255,239,1) 100%);
+    background: black;
+    /*background: -moz-linear-gradient(90deg, rgba(239,157,255,1) 0%, rgba(216,205,255,1) 48%, rgba(85,255,239,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(239,157,255,1) 0%, rgba(216,205,255,1) 48%, rgba(85,255,239,1) 100%);
     background: linear-gradient(90deg, rgba(239,157,255,1) 0%, rgba(216,205,255,1) 48%, rgba(85,255,239,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ef9dff",endColorstr="#55ffef",GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ef9dff",endColorstr="#55ffef",GradientType=1);*/
       background-position: bottom;
       background-repeat: no-repeat;
       background-size: cover;
