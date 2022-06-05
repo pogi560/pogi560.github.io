@@ -52,3 +52,11 @@ ol.none {
   content: "\00A0\2039";
   transition-duration: 0.3s;
 }
+
+.header-text{
+  text-align: center;
+  color: white;
+  font-family: "Alata", sans-serif;
+  font-size: 1.5em;
+  bottom: 10%;
+}
