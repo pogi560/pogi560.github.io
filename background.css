@@ -64,7 +64,7 @@
   left: 0%;
 }
 
-.right-half {
+/*.right-half {
   background-color: blank;
   color: white;
   font-family: "Alata", sans-serif;
@@ -72,7 +72,7 @@
   position: absolute;
   top: 50%;
   right: 0%;
-}
+}*/
 
 .button {
   background: black;
