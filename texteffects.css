@@ -32,9 +32,6 @@
   }
   
   .list-text {
-    position: absolute;
-    left: 50%;
-    top: 50%;
     text-align: center;
     color: white;
     font-family: "Alata", sans-serif;
