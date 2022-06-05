@@ -74,20 +74,44 @@
   right: 0%;
 }*/
 
-.button {
+.leftbutton {
   background: black;
   width: 20%;
   height: 100%;
+  left: 0%;
   color: white;
   font-size: 3em;
   position: absolute;
 }
 
-.button a {
+.rightbutton {
+  background: black;
+  width: 20%;
+  height: 100%;
+  right: 0%;
+  color: white;
+  font-size: 3em;
+  position: absolute;
+}
+
+.leftbutton a {
   display: block;
   width: 100%;
   height: 100%;
 }
 
+.rightbutton a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 
+.button-text {
+ background-color: blank;
+color: white;
+font-family: "Alata", sans-serif;
+font-size: 3em;
+position: absolute;
+top: 50%;
+}
 
