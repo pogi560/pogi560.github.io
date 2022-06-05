@@ -53,10 +53,11 @@ ol.none {
   transition-duration: 0.3s;
 }
 
-.header-text{
+.footer-text{
   text-align: center;
   color: white;
   font-family: "Alata", sans-serif;
   font-size: 1.5em;
   bottom: 10%;
+  position: absolute;
 }
