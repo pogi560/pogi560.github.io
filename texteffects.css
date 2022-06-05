@@ -1,63 +1,65 @@
 .center {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    text-align: center;
-    font-size: 3em;
-    font-family: "Alata", sans-serif;
-    color: white;
-  }
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  font-size: 3em;
+  font-family: "Alata", sans-serif;
+  color: white;
+}
 
-  .glow {
-    font-size: 80px;
-    color: #fff;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-  }
+.glow {
+  color: #fff;
+  text-align: center;
+  transition: text-shadow 1s ease-out;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
-  }
+}
+
+.glow:hover{
+transition: text-shadow 1s ease-out;
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
 
 ol.none {
-    list-style-type: none;
-  }
-  
+  list-style-type: none;
+}
+
 .list-text {
-    text-align: center;
-    color: white;
-    font-family: "Alata", sans-serif;
-    font-size: 1.5em;
-  }
-
-.normal {
-  color: white;
-  text-decoration: underline black;
-}
-
-.normal:hover:before {
-  content: "\203A\00A0";
-  transition-duration: 0.3s;
-}
-
-.normal:hover:after {
-  content: "\00A0\2039";
-  transition-duration: 0.3s;
-}
-
-.footer-text{
   text-align: center;
   color: white;
   font-family: "Alata", sans-serif;
   font-size: 1.5em;
-  bottom: 10%;
-  position: absolute;
+}
+
+.normal {
+color: white;
+text-decoration: underline black;
+}
+
+.normal:before {
+content: "\203A\00A0";
+opacity: 0%;
+transition: opacity .3s;
+}
+
+.normal:after {
+content: "\00A0\2039";
+opacity: 0%;
+transition: opacity .3s;
+}
+
+.normal:hover:before {
+content: "\203A\00A0";
+color: white;
+opacity: 100%;
+transition: opacity .3s;
+}
+
+.normal:hover:after {
+content: "\00A0\2039";
+color: white;
+opacity: 100%;
+transition: opacity .3s;
 }
