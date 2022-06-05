@@ -29,8 +29,9 @@
 
   ol.none {
     list-style-type: none;
-    position: absolute;
-    top: 50%;
+  }
+  
+  .list-text {
     text-align: center;
     color: white;
     font-family: "Alata", sans-serif;
