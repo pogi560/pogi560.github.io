@@ -42,3 +42,11 @@ ol.none {
   color: white;
   text-decoration: underline black;
 }
+
+.normal:hover:before {
+  content: "\203A\00A0";
+}
+
+.normal:hover:after {
+  content: "\00A0\2039";
+}
