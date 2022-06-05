@@ -27,4 +27,12 @@
     }
   }
 
-  
+  ol.none {
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+    font-family: "Alata", sans-serif;
+    font-size: 1.5em;
+  }
