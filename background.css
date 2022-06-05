@@ -30,6 +30,17 @@
   color: white;
 }
 
+/* Style the footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  font-size: 3em;
+  font-family: "Alata", sans-serif;
+  color: white;
+}
+
 /*
 .topnav {
   overflow: hidden;
@@ -45,14 +56,6 @@
   text-decoration: none;
 }*/
 
-.left-half {
-  background-color: blank;
-  color: white;
-  font-family: "Alata", sans-serif;
-  font-size: 3em;
-  position: absolute;
-  top: 50%;
-}
 
 .left-half {
   background-color: blank;
