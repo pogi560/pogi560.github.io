@@ -27,13 +27,19 @@
     }
   }
 
-  ol.none {
+ol.none {
     list-style-type: none;
   }
   
-  .list-text {
+.list-text {
     text-align: center;
     color: white;
     font-family: "Alata", sans-serif;
     font-size: 1.5em;
   }
+
+.normal {
+  font-size: 1.5em;
+  font-family: "Alata", sans-serif;
+  color: white;
+}
