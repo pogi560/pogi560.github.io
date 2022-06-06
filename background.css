@@ -47,22 +47,6 @@ font-family: "Alata", sans-serif;
 color: white;
 }
 
-/*
-.topnav {
-overflow: hidden;
-background-color: #333;
-}
-
-.topnav a {
-float: left;
-display: block;
-color: #f2f2f2;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}*/
-
-
 .left-half {
 background-color: transparent;
 color: white;
@@ -72,16 +56,6 @@ position: absolute;
 top: 50%;
 left: 0%;
 }
-
-/*.right-half {
-background-color: blank;
-color: white;
-font-family: "Alata", sans-serif;
-font-size: 3em;
-position: absolute;
-top: 50%;
-right: 0%;
-}*/
 
 .leftbutton {
 background: transparent;
@@ -116,7 +90,7 @@ height: 100%;
 }
 
 .leftbutton-text {
-background-color: blank;
+background-color: transparent;
 color: white;
 font-family: "Alata", sans-serif;
 font-size: 3em;
@@ -126,7 +100,7 @@ left: 50px;
 }
 
 .rightbutton-text {
-background-color: blank;
+background-color: transparent;
 color: white;
 font-family: "Alata", sans-serif;
 font-size: 3em;
