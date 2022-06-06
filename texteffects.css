@@ -34,8 +34,8 @@ ol.none {
 }
 
 .normal {
-color: white;
-text-decoration: underline black;
+  color: white;
+  text-decoration: underline transparent;
 }
 
 .normal:before {

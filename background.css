@@ -57,7 +57,7 @@ text-decoration: none;
 
 
 .left-half {
-background-color: blank;
+background-color: transparent;
 color: white;
 font-family: "Alata", sans-serif;
 font-size: 3em;
@@ -77,7 +77,7 @@ right: 0%;
 }*/
 
 .leftbutton {
-background: black;
+background: transparent;
 width: 20%;
 height: 100%;
 left: 0%;
@@ -87,7 +87,7 @@ position: absolute;
 }
 
 .rightbutton {
-background: black;
+background: transparent;
 width: 20%;
 height: 100%;
 right: 0%;
